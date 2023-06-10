@@ -45,7 +45,7 @@ class App(customtkinter.CTk):
         self.text_dir.grid(row=0, column=0, rowspan=2, pady=5, padx=10, sticky="nsw")
 
         self.select_btn = customtkinter.CTkButton(master=self.frame_0, 
-                                                  text='select dir', 
+                                                  text='Select dir', 
                                                   command=self.getdir)
         self.select_btn.grid(row=0, column=1, pady=5, padx=10, sticky="we")
 
@@ -150,7 +150,7 @@ class App(customtkinter.CTk):
         self.progressbar.grid(row=1, column=0, sticky="ew", padx=10, pady=5)
 
         self.go_btn = customtkinter.CTkButton(master=self.frame_9, 
-                                            text='go', 
+                                            text='Go', 
                                             command=self.go)
         self.go_btn.grid(row=1, column=1, pady=5, padx=10, sticky="we")
 
