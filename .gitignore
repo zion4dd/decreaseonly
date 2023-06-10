@@ -1,0 +1,9 @@
+venv/
+__pycashe__/
+0*
+~*
+*.log
+test*/
+dist/
+build/
+*.spec
